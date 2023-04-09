@@ -6,6 +6,7 @@ namespace NZWeb2.Api.Data
 {
     public class NZWalksDBContext:DbContext
     {
+        //DBContext
         public NZWalksDBContext(DbContextOptions<NZWalksDBContext> Options) : base(Options) { }
 
 
